@@ -1,5 +1,7 @@
 # SecEdgarScraper Library Documentation
 
+[![Github Pages](https://github.com/Ameykolhe/sec-edgar-scraper/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Ameykolhe/sec-edgar-scraper/actions/workflows/jekyll-gh-pages.yml)
+
 The `SecEdgarScraper` library is a tool designed to facilitate the retrieval of financial statements from the SEC EDGAR database. This documentation provides a comprehensive guide on setting up and using the library to fetch financial information for financial analysis, research, or data ingestion pipelines.
 
 ## Setting Up
