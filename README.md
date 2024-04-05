@@ -7,7 +7,7 @@ The `SecEdgarScraper` library is a tool designed to facilitate the retrieval of 
 Installing the library.
 
 ```shell
-python3 setup.py install
+pip3 install .
 ```
 
 ## Initialization
