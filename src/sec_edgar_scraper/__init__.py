@@ -1,0 +1,1 @@
+from sec_edgar_scraper.scraper import SecEdgarScraper
