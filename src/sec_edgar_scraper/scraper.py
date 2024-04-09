@@ -484,6 +484,15 @@ class SecEdgarScraper:
                 logging.error(f"Error processing statement: {e}")
                 return None
 
+    def get_recent_statements_for_tickers(self, tickers: list, statement_name: str, form: str) -> dict:
+        result = {}
+        for ticker in tickers:
+            cik = self.get_cik_matching_ticker(ticker)
+            recent_accession_number = self.get_filtered_filings(cik, form, just_accession_numbers=True).values[0]
+            result[ticker] = self.get_one_statement(cik, recent_accession_number, statement_name)
+
+        return result
+
 
 def main():
     name = "YourName"
